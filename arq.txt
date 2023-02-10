@@ -1,0 +1,12 @@
+rodar composer create-project laravel/laravel example-app -> vc acha no site do laravel
+cd nome-do-projeto
+rodar php artisan serve
+
+resource > views > welcome... = são as views
+
+blade é a enginer do laravel, é html porem com o 'motor' (possibilidade de pegar dados dos controlers/db)
+e inserir nas views,sem o blade, temos que usar php ou deixar as pages estaticas 
+
+diretivas = começa com o @
+
+para reaproveitamento de codigo ,cria-se uma ppasta chamada layouts dentro do resources > views (layout) 
